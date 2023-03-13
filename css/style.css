@@ -451,6 +451,10 @@ body {
   font-size: 0.875rem;
   line-height: 1.1428571429;
   font-weight: 300;
+	max-width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .form__prompt:not(:last-child) {
