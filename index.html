@@ -6,18 +6,18 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- <link rel="icon" href="img/icon.png" sizes="96x96" type="image/png">
-	<link rel="stylesheet" href="files/swiper-bundle.min.css?_v=20230313134429"> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20230313134429">
+	<link rel="stylesheet" href="files/swiper-bundle.min.css?_v=20230313150758"> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230313150758">
 	<title>Form</title>
 </head>
 
 <body>
 	<div class="wrapper">
-
+		
 		<main class="page">
 			<div class="signup" data-anim-inter>
 				<div class="signup__body">
-					<h1 class="signup__caption">Sign up</h1>
+					<div class="signup__caption">Sign up</div>
 					<form class="signup__form form " action="sender.php" method="post">
 						<svg class="form__decor" aria-hidden="true" width="411" height="411" viewBox="0 0 411 411" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path d="M205.5 411C92.236 411 0 318.764 0 205.5C0 92.236 92.236 
@@ -39,16 +39,16 @@
 								 110.661 147 142.5ZM205.5 114C189.057 114 176 127.057 176 143.5C176 159.943 189.057 173 205.5 173C221.943 173 
 								 235 159.943 235 143.5C235 127.057 221.943 114 205.5 114Z" />
 						</svg>
-						<div class="form__caption">New user? </div>
+						<h1 class="form__caption">New user? </h1>
 						<span class="form__prompt">Use the form below to create your account.</span>
 						<div class="form__body">
 							<div class="form__body-item item-form">
 								<label class="item-form__label" for="first">First Name</label>
-								<input class="item-form__input" id="first" type="text" name="firstname" placeholder="" required>
+								<input class="item-form__input" id="first" type="text" name="firstname" placeholder="Enter your name" required>
 							</div>
 							<div class="form__body-item item-form">
 								<label class="item-form__label" for="last">Last Name</label>
-								<input class="item-form__input" id="last" type="text" name="lastname" placeholder="" required>
+								<input class="item-form__input" id="last" type="text" name="lastname" placeholder="Enter last name" required>
 							</div>
 							<div class="form__body-item item-form item-form--index1">
 								<span class="item-form__label">Nationality</span>
@@ -59,11 +59,11 @@
 									<li class="item-form__list-item">American2</li>
 									<li class="item-form__list-item">American3</li>
 								</ul>
-								<input class="item-form__input visually-hidden" type="text" name="nationality" value="American" placeholder="">
+								<input class="item-form__input visually-hidden" type="text" name="nationality" value="American" placeholder="nationality">
 							</div>
 							<div class="form__body-item item-form _icon-shape">
 								<label class="item-form__label" for="mail">E-mail</label>
-								<input class="item-form__input item-form__input--icon" id="mail" type="email" name="email" placeholder="" required>
+								<input class="item-form__input item-form__input--icon" id="mail" type="email" name="email" placeholder="Enter your email" required>
 							</div>
 							<div class="form__body-item item-form item-form--index">
 								<span class="item-form__label">Date of Birth</span>
@@ -76,7 +76,7 @@
 											<li class="item-form__list-item">23</li>
 											<li class="item-form__list-item">24</li>
 										</ul>
-										<input class="item-form__input visually-hidden" type="text" name="number" value="21" placeholder="">
+										<input class="item-form__input visually-hidden" type="text" name="number" value="21" placeholder="birth number">
 									</div>
 									<div class="item-form__dropdown">
 										<button class="item-form__btn" type="button">December</button>
@@ -86,7 +86,7 @@
 											<li class="item-form__list-item">February</li>
 											<li class="item-form__list-item">March</li>
 										</ul>
-										<input class="item-form__input visually-hidden" type="text" name="month" value="December" placeholder="">
+										<input class="item-form__input visually-hidden" type="text" name="month" value="December" placeholder="month of birth">
 									</div>
 									<div class="item-form__dropdown">
 										<button class="item-form__btn" type="button">1995</button>
@@ -103,7 +103,7 @@
 											<li class="item-form__list-item">1996</li>
 											<li class="item-form__list-item">1995</li>
 										</ul>
-										<input class="item-form__input visually-hidden" type="text" name="year" value="1995" placeholder="">
+										<input class="item-form__input visually-hidden" type="text" name="year" value="1995" placeholder="year of birth">
 									</div>
 								</div>
 							</div>
@@ -122,11 +122,11 @@
 							</div>
 							<div class="form__body-item item-form">
 								<label class="item-form__label" for="password">Password</label>
-								<input class="item-form__input" id="password" type="password" name="userpass" placeholder="" required>
+								<input class="item-form__input" id="password" type="password" name="userpass" placeholder="Enter password" required>
 							</div>
 							<div class="form__body-item item-form">
 								<label class="item-form__label" for="passconfirm">Confirm Password</label>
-								<input class="item-form__input" id="passconfirm" type="password" name="userpassconfirm" placeholder="" required>
+								<input class="item-form__input" id="passconfirm" type="password" name="userpassconfirm" placeholder="Confirm the password" required>
 							</div>
 						</div>
 						<div class="form__bottom">
@@ -154,10 +154,10 @@
 				</div>
 			</div>
 		</main>
-
-		<script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20230313134429"></script>
-		<script src="files/jquery.validate.min.js?_v=20230313134429"></script>
-		<script src="js/app.min.js?_v=20230313134429"></script>
+		
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20230313150758"></script>
+		<script src="files/jquery.validate.min.js?_v=20230313150758"></script>
+		<script src="js/app.min.js?_v=20230313150758"></script>
 	</div>
 
 </body>

@@ -646,6 +646,31 @@ body {
           box-shadow: inset 0rem 0rem 0.375rem rgb(90, 97, 237);
 }
 
+.item-form__input::-webkit-input-placeholder {
+  opacity: 0;
+  font-size: 0;
+}
+
+.item-form__input::-moz-placeholder {
+  opacity: 0;
+  font-size: 0;
+}
+
+.item-form__input:-ms-input-placeholder {
+  opacity: 0;
+  font-size: 0;
+}
+
+.item-form__input::-ms-input-placeholder {
+  opacity: 0;
+  font-size: 0;
+}
+
+.item-form__input::placeholder {
+  opacity: 0;
+  font-size: 0;
+}
+
 .item-form__btn {
   position: relative;
   display: -webkit-box;
